@@ -1,0 +1,22 @@
+{
+    "name": "Google Maps",
+    "launch_path": "/google-maps/index.html",
+    "description": "Provides directions, interactive maps, and satellite/aerial imagery of many countries.",
+    "icons": {
+        "60": "/google-maps/img/icon-60.png",
+        "128": "/google-maps/img/icon-128.png"
+    },
+    "developer": {
+        "name": "Google, Inc.",
+        "url": "http://google.com"
+    },
+    "default_locale": "en",
+    "permissions": {
+        "browser": {
+            "description": "Allows us to have additional control over how our app is rendered."
+        },
+        "geolocation": {
+            "description": "Position the user without prompting."
+        }
+    }
+}
